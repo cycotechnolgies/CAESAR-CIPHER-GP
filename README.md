@@ -37,17 +37,17 @@ CAESAR-CIPHER-GP/
 To compile the project, use GCC:
 
 ```bash
-gcc src/*.c -o caesar_cipher
+gcc main.c queue.c encryption.c decryption.c -o cipher
 ```
 
 ## Usage
 
 1. Run the compiled program:
    ```bash
-   ./caesar_cipher
+   cipher
    ```
 
-2. Choose operation:
+2. Choose option:
    - `E` for encryption
    - `D` for decryption
 
@@ -58,10 +58,22 @@ gcc src/*.c -o caesar_cipher
 ## Example
 
 ```
-Enter operation (E/D): E
-Enter message: Hello World
-Enter shift key: 3
-Encrypted message: Khoor Zruog
+----------------[ Caesar Cipher ]----------------
+
+Options:
+
+[E] Encrypt       
+[D] Decrypt       
+
+Choose an option: e
+
+Enter the message: hello world!
+
+Enter the key (1-25): 3
+
+--------------------------------------------------
+Encrypted Message: khoor zruog!
+--------------------------------------------------
 ```
 
 ## Technical Implementation
@@ -78,9 +90,9 @@ Encrypted message: Khoor Zruog
 
 ## Contributors
 
-K.H.S.N. Chandrasena (2022t01523)
-W.D.D.K. Rathnasooriya (2022t01570)
-Y.E.N. Premathilaka (2022t01564)
+- K.H.S.N. Chandrasena (2022t01523)
+- W.D.D.K. Rathnasooriya (2022t01570)
+- Y.E.N. Premathilaka (2022t01564)
 
 ## Acknowledgments
 
