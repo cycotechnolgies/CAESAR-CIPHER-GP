@@ -48,8 +48,8 @@ gcc main.c queue.c encryption.c decryption.c -o cipher
    ```
 
 2. Choose option:
-   - `E` for encryption
-   - `D` for decryption
+   - `E or e` for encryption
+   - `D or d` for decryption
 
 3. Enter your message
 
